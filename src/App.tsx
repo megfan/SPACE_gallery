@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from './components/NavBar'
 import Container from './components/Container'
-import './css/App.css'
+import './css/App.scss'
 
 class App extends Component {
   render() {

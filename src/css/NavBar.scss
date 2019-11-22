@@ -1,0 +1,37 @@
+.navBar {
+  width: 15vw;
+  height: 100vh;
+  padding: 60px 50px 20px 100px;
+  color: var(--lightgrey);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:white;
+  z-index: 1;
+}
+.header_logo h1{
+  font-weight: 700;
+  font-size: 2rem;
+}
+.header_logo h1 span{
+  color: var(--dark-grey);
+}
+
+
+
+/* --------------list */
+
+.menu{
+  &_list{
+    list-style: none;
+    padding: 0;
+    margin-top: 100px;
+    li{
+      font-size: .8rem;
+      margin-bottom: 30px;
+    }
+  }
+}

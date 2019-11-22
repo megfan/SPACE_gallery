@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/NavBar.css'
+import '../css/NavBar.scss'
 
 const NavBar = () => {
     return (
@@ -7,13 +7,10 @@ const NavBar = () => {
             <div className="header">
                 <div className="header_logo">
                     <h1>SEA<span>RCH</span></h1>  
-                </div>
-                <p className="header_title">
-                To get started, scroll
-                </p>     
+                </div>   
             </div>
             <div className="menu">
-                <ul>
+                <ul className='menu_list'>
                     <li>Mercury</li>
                     <li>Wenus</li>
                     <li>Ziemia</li>
